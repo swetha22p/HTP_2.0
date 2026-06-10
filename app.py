@@ -26,7 +26,7 @@ MERGED_MODEL_DIR   = None   # set to a path string to enable merge+save
 # T4 SETTINGS
 # ==================================================
 
-MAX_SEQ_LENGTH = 1024   # safe for T4 16 GB; bump to 1536/2048 only after OOM-free run
+MAX_SEQ_LENGTH = 2048   # safe for T4 16 GB; bump to 1536/2048 only after OOM-free run
 
 # ==================================================
 # SYSTEM PROMPT
@@ -164,7 +164,7 @@ trainer = SFTTrainer(
     train_dataset = train_dataset,
     eval_dataset  = val_dataset,
 
-    callbacks = [EarlyStoppingCallback(early_stopping_patience=1)],
+    callbacks = [EarlyStoppingCallback(early_stopping_patience=2)],
 
     args = SFTConfig(
         output_dir             = CHECKPOINT_DIR,
