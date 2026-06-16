@@ -12,13 +12,13 @@ import torch
 # PATHS — update these to your AIRAWAT paths
 # ==================================================
 
-TRAIN_FILE         = "/path/to/train.jsonl"
-VAL_FILE           = "/path/to/val.jsonl"
-TEST_FILE          = "/path/to/test.jsonl"
+TRAIN_FILE         = "AG/train.jsonl"
+VAL_FILE           = "AG/val.jsonl"
+TEST_FILE          = "AG/test.jsonl"
 
-FORMATTED_SAVE_DIR = "/path/to/formatted_data"
-CHECKPOINT_DIR     = "/path/to/checkpoints"
-ADAPTER_SAVE_DIR   = "/path/to/qlora_adapters_qwen2.5_7b"
+FORMATTED_SAVE_DIR = "AG/formatted_data"
+CHECKPOINT_DIR     = "AG/checkpoints"
+ADAPTER_SAVE_DIR   = "AG/qlora_adapters_qwen2.5_7b"
 MERGED_MODEL_DIR   = None   # set a path to merge after training, else None
 
 # ==================================================
