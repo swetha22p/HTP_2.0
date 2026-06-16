@@ -1,0 +1,65 @@
+{
+  "train": {
+    "split": "train",
+    "total_windows": 511,
+    "total_chapters": 27,
+    "avg_tokens": 2568.4,
+    "min_tokens": 260,
+    "max_tokens": 2999,
+    "chapters": {
+      "10stnd_chapter_1": 55,
+      "6stnd_1ch": 17,
+      "6stnd_3ch": 8,
+      "6stnd_6ch": 15,
+      "6stnd_7ch": 13,
+      "6stnd_8ch": 13,
+      "6stnd_chapter_5": 17,
+      "7stnd_chapter1": 15,
+      "7stnd_chapter7": 20,
+      "7stnd_chapter9": 25,
+      "7stnd_chapter_4": 24,
+      "7stnd_chapter_5": 19,
+      "7stnd_chapter_6": 18,
+      "7stnd_chapter_7": 20,
+      "7stnd_chapter_8": 25,
+      "8stnd_3ch": 31,
+      "Biology_chapter_3": 37,
+      "Ecommerce_chaper_1": 27,
+      "NLG_data_different_style": 45,
+      "health_chapter_2": 11,
+      "health_chapter_3": 11,
+      "new_chapter_1": 22,
+      "new_chapter_4": 3,
+      "new_chapter_6": 5,
+      "new_chapter_7": 7,
+      "new_chapter_8": 4,
+      "news_chapter_5": 4
+    }
+  },
+  "val": {
+    "split": "val",
+    "total_windows": 49,
+    "total_chapters": 3,
+    "avg_tokens": 2609.0,
+    "min_tokens": 325,
+    "max_tokens": 2973,
+    "chapters": {
+      "7stnd_chapter2": 12,
+      "Biology_chapter_1": 21,
+      "health_chapter_1": 16
+    }
+  },
+  "test": {
+    "split": "test",
+    "total_windows": 56,
+    "total_chapters": 3,
+    "avg_tokens": 2587.7,
+    "min_tokens": 520,
+    "max_tokens": 2992,
+    "chapters": {
+      "6stnd_2ch": 21,
+      "7stnd_chapter_3": 17,
+      "Biology_chapter_2": 18
+    }
+  }
+}

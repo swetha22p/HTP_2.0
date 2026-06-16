@@ -1,0 +1,35 @@
+{
+  "total_input_entries": 5207,
+  "total_passages": 33,
+  "total_windows": 616,
+  "sentences_per_window": {
+    "min": 1,
+    "max": 19,
+    "avg": 8.5
+  },
+  "tokens_per_window": {
+    "min": 260,
+    "max": 2999,
+    "avg": 2573.4,
+    "over_limit": 0
+  },
+  "overlimit_single_sentence_windows": {
+    "count": 0,
+    "explanation": "Single USR entries whose output alone exceeds MAX_TOKENS. Windowing cannot fix these — the source sentence is just large. Handle at training time: skip, or use higher max_seq_len.",
+    "ids": []
+  },
+  "connector_start_windows": {
+    "count": 14,
+    "explanation": "Windows whose output begins with a connector or relative pronoun. These are genuine mid-discourse continuations. Safe to train on; consider excluding from standalone eval sets.",
+    "by_connector_word": {
+      "कि": 5,
+      "जबकि": 2,
+      "और": 2,
+      "पर": 1,
+      "तब": 1,
+      "यद्यपि": 1,
+      "जिस": 1,
+      "तथा": 1
+    }
+  }
+}
